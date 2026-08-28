@@ -1,0 +1,14 @@
+{
+  "name": "rentease-fullstack",
+  "version": "1.0.0",
+  "description": "RentEase - Vacation Rental & Booking Full-Stack Platform",
+  "scripts": {
+    "start": "powershell -ExecutionPolicy Bypass -File ./run-all.ps1",
+    "dev": "powershell -ExecutionPolicy Bypass -File ./run-all.ps1",
+    "server": "npm start --prefix server",
+    "client": "npm start --prefix client",
+    "client:build": "npm run build --prefix client"
+  },
+  "keywords": ["rentease", "mern", "real-estate", "rental", "airbnb-clone"],
+  "license": "ISC"
+}
